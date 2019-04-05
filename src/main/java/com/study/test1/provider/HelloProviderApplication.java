@@ -10,7 +10,7 @@ import java.io.IOException;
  * @author: longxiu.ycf
  * @create: 2019-04-04 17:41
  **/
-public class HelloApplication {
+public class HelloProviderApplication {
 
     public static void main(String[] args) throws IOException {
         ClassPathXmlApplicationContext context = new ClassPathXmlApplicationContext("test1/provider.xml");
